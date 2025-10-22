@@ -56,8 +56,8 @@ const CopyableText: React.FC<CopyableTextProps> = ({ text }) => {
         <div
           style={{
             position: 'absolute',
-            top: '-40px',
-            left: '10%',
+            top: '-30px',
+            left: '100%',
             transform: 'translateX(-50%)',
             backgroundColor: 'rgba(0, 0, 0, 0.8)',
             color: 'white',
