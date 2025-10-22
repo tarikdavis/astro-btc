@@ -209,3 +209,15 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Hide on small screens */
+    .hide-on-mobile {
+      display: none;
+    }
+
+    /* Show on larger screens */
+    @media (min-width: 768px) {
+      .hide-on-mobile {
+        display: block;
+      }
+    }

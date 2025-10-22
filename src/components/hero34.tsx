@@ -25,7 +25,7 @@ const Hero34 = () => {
           </div>
           <img
             src="https://raw.githubusercontent.com/tarikdavis/astro-btc/refs/heads/main/src/assets/btc-pumpfun.jpg"
-            className="h-full w-full object-cover"
+            className="h-full w-full object-cover hide-on-mobile"
           />
         </div>
       </div>
