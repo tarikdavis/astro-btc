@@ -3,7 +3,7 @@ import { SiSolana } from "react-icons/si";
 import { Button } from "@/components/ui/button";
 import CopyableText from '@/components/CopyableText.tsx';
 import { Image } from 'astro:assets';
-import herobtc from '@/components/img/btc-hero.jpg'
+import herobtc from '../assets/btc-hero.jpg'
 
 const Hero34 = () => {
   return (
