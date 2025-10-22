@@ -38,7 +38,7 @@ const Community6 = () => {
         <p className="text-muted-foreground mb-8 max-w-2xl text-center text-lg font-normal md:text-xl">
           Connect, collaborate, and what else shall we do?
         </p>
-        <div className="mb-10 grid w-full grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-2">
+        <div className="mb-10 grid w-full grid-cols-1 gap-6 md:grid-cols-1 xl:grid-cols-2">
           {communityCards.map((card) => (
             <Card
               key={card.title}
