@@ -36,8 +36,7 @@ const Community6 = () => {
           Join The Congregation
         </h2>
         <p className="text-muted-foreground mb-8 max-w-2xl text-center text-lg font-normal md:text-xl">
-          Connect, collaborate, and create with passionate developers and
-          creators worldwide.
+          Connect, collaborate, and what else shall we do?
         </p>
         <div className="mb-10 grid w-full grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-2">
           {communityCards.map((card) => (
