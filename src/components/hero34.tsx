@@ -25,7 +25,7 @@ const Hero34 = () => {
             </div>
           </div>
           <img
-            src="src/components/img/btc-hero.jpg"
+            src="https://github.com/tarikdavis/astro-btc/blob/main/src/components/img/btc-hero.jpg"
             alt="placeholder hero"
             className="h-full w-full object-cover"
           />
