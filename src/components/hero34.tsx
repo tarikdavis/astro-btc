@@ -2,8 +2,6 @@ import { FaTelegram } from "react-icons/fa";
 import { SiSolana } from "react-icons/si";
 import { Button } from "@/components/ui/button";
 import CopyableText from '@/components/CopyableText.tsx';
-import { Image } from 'astro:assets';
-import herobtc from '../assets/btc-hero.jpg'
 
 const Hero34 = () => {
   return (
@@ -37,9 +35,7 @@ const Hero34 = () => {
             </div>
           </div>
           <img
-            src="/_astro/herobtc.hash.webp"
-            decoding="async"
-            loading="lazy"
+            src="src/assets/btc-hero.jpg"
             className="h-full w-full object-cover"
           />
         </div>
