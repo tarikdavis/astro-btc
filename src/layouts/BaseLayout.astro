@@ -1,0 +1,39 @@
+---
+import '../styles/global.css';
+
+const { content } = Astro.props;
+---
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<title>{content.title}</title>
+		<meta name="description" content="Biggest Telegram Congregation" />
+		<meta name="author" content="BTC" />
+		<meta name="keywords" content="Telegram, BTC" />
+		<meta name="theme-color" content="#ffffff" />
+		<link rel="stylesheet" href="/styles/global.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		
+	</head>
+	<body id="body" style="display: none;">
+		<header>
+			 
+		</header>	
+		<main>
+		<slot />
+		</main>
+		<footer>
+			
+		</footer>
+	</body>
+	<script type="text/javascript">
+    window.onload = function () {
+        setTimeout(function() {
+            document.getElementById("body").style.display = "";        
+        }, 300);
+    }
+	</script>
+</html>
