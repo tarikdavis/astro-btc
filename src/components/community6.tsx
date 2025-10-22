@@ -30,7 +30,7 @@ const Community6 = () => {
   ];
 
   return (
-    <section className="bg-background text-foreground relative overflow-hidden rounded-3xl py-32">
+    <section className="bg-background text-foreground relative overflow-hidden rounded-3xl py-6">
       <div className="container relative z-10 flex flex-col items-center justify-center">
         <h2 className="mb-4 text-center text-4xl font-bold tracking-tight md:text-5xl xl:text-6xl">
           Join The Congregation

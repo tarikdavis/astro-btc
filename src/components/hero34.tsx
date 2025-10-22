@@ -1,7 +1,6 @@
 import { FaTelegram } from "react-icons/fa";
 import { SiSolana } from "react-icons/si";
 import { Button } from "@/components/ui/button";
-import CopyableText from '@/components/CopyableText.tsx';
 
 const Hero34 = () => {
   return (
@@ -12,17 +11,7 @@ const Hero34 = () => {
             <h1 className="my-6 text-pretty text-4xl font-bold lg:text-6xl">
               Biggest Telegram Congregation
             </h1>
-          
-            <div className="pt-6">
-            <h2 className="text-lg font-semibold md:text-2xl lg:text-xl uppercase">
-              Contract address
-            </h2>
-            </div>
 
-            <div className="pb-8">
-            <h3 className="text-muted-foreground font-normal md:block"><CopyableText text="2NRSswjLuK9kJLdDozhRoiJm6gZHGeFH92Lc2tRQpump" /></h3>
-            </div>
-            
             <div className="flex w-full flex-col justify-center gap-2 sm:flex-row lg:justify-start">
               <Button variant="secondary">
                 Join us on Telegram
