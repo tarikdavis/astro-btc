@@ -35,7 +35,7 @@ const Hero34 = () => {
             </div>
           </div>
           <img
-            src="https://github.com/tarikdavis/astro-btc/blob/main/src/assets/btc-hero.jpg"
+            src="https://github.com/tarikdavis/astro-btc/blob/main/src/assets/btc-hero.webp?raw=true"
             
             className="h-full w-full object-cover"
           />
