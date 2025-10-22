@@ -1,6 +1,9 @@
-import { ArrowRight } from "lucide-react";
-
+import { FaTelegram } from "react-icons/fa";
+import { SiSolana } from "react-icons/si";
 import { Button } from "@/components/ui/button";
+import CopyableText from '@/components/CopyableText.tsx';
+import { Image } from 'astro:assets';
+import herobtc from '@/components/img/btc-hero.jpg'
 
 const Hero34 = () => {
   return (
@@ -11,27 +14,38 @@ const Hero34 = () => {
             <h1 className="my-6 text-pretty text-4xl font-bold lg:text-6xl">
               Biggest Telegram Congregation
             </h1>
-            <p className="text-muted-foreground mb-8 max-w-xl lg:text-xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Elig
-              doloremque mollitia fugiat omnis! Porro facilis quo animi
-              consequatur. Explicabo.
-            </p>
+          
+            <div className="pt-6">
+            <h2 className="text-lg font-semibold md:text-2xl lg:text-xl uppercase">
+              Contract address
+            </h2>
+            </div>
+
+            <div className="pb-8">
+            <h3 className="text-muted-foreground font-normal md:block"><CopyableText text="2NRSswjLuK9kJLdDozhRoiJm6gZHGeFH92Lc2tRQpump" /></h3>
+            </div>
+            
             <div className="flex w-full flex-col justify-center gap-2 sm:flex-row lg:justify-start">
-              <Button>
-                Primary
-                <ArrowRight className="size-4" />
+              <Button variant="secondary">
+                Join us on Telegram
+                <FaTelegram className="size-6" />
               </Button>
-              <Button variant="outline">Secondary</Button>
+              <Button>
+                Trade $BTC
+                <SiSolana className="size-6" />
+              </Button>
             </div>
           </div>
           <img
-            src="https://github.com/tarikdavis/astro-btc/blob/main/src/components/img/btc-hero.jpg?raw=true"
-            alt="placeholder hero"
+            src="/_astro/btc-hero.jpg"
+            decoding="async"
+            loading="lazy"
             className="h-full w-full object-cover"
           />
         </div>
       </div>
     </section>
+    
   );
 };
 
