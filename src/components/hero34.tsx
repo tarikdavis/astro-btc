@@ -25,7 +25,7 @@ const Hero34 = () => {
             </div>
           </div>
           <img
-            src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-1.svg"
+            src="components/img/btc-hero.jpg"
             alt="placeholder hero"
             className="h-full w-full object-cover"
           />
