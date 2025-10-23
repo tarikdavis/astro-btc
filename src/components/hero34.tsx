@@ -15,7 +15,7 @@ const Hero34 = () => {
             />
              </h1>
             <div className="flex w-full flex-col justify-center gap-2 sm:flex-row lg:justify-start">
-              <Button variant="secondary" className="mt-6 h-12 rounded-2xl px-6 text-lg hover:bg-blue-300 transition duration-200">
+              <Button variant="secondary" className="mt-6 h-12 rounded-2xl px-6 text-lg">
                 <a href="https://t.me/salladcowboys">Join us on Telegram</a>
                 <FaTelegram className="size-6" />
               </Button>
