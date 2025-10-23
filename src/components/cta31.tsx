@@ -11,10 +11,10 @@ const Cta31 = () => {
         <h2 className="mb-4 text-center text-4xl font-bold tracking-tight md:text-5xl xl:text-6xl">
           Contract address
         </h2>
-        <div className="relative mt-4 flex justify-center lg:mt-8">
+        <div className="relative mt-4 flex justify-center lg:mt-6">
         <p className="sm:text-base text-xs md:text-base"><CopyableText text="2NRSswjLuK9kJLdDozhRoiJm6gZHGeFH92Lc2tRQpump"/></p>
         </div>
-        <div className="relative z-10 mt-4 flex justify-center lg:mt-8">
+        <div className="relative z-10 mt-4 flex justify-center lg:mt-2">
               <Button className="mt-6 h-12 rounded-2xl px-6 text-lg">
                 Trade $BTC on pumpfun
                 <SiSolana className="size-6" />
