@@ -10,7 +10,7 @@ const Cta31 = () => {
           Contract address
         </h2>
         <div className="relative mt-4 flex justify-center lg:mt-8">
-        <p className="text-xs"><CopyableText text="2NRSswjLuK9kJLdDozhRoiJm6gZHGeFH92Lc2tRQpump"/></p>
+        <p className="sm:text-base text-xs md:text-base"><CopyableText text="2NRSswjLuK9kJLdDozhRoiJm6gZHGeFH92Lc2tRQpump"/></p>
         </div>
         <div className="relative z-10 mt-4 flex justify-center lg:mt-8">
               <Button className="mt-6 h-12 rounded-2xl px-6 text-lg">
