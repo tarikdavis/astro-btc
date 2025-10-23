@@ -15,9 +15,9 @@ type GradientTextProps = React.ComponentProps<'span'> & {
 function GradientText({
   text,
   className,
-  gradient = 'linear-gradient(45deg, #3b82f6 0%, #a855f7 20%, #ec4899 50%, #a855f7 80%, #3b82f6 100%)',
+  gradient = 'radial-gradient(270deg, #3b82f6 0%, #a855f7 20%, #ec4899 50%, #a855f7 80%, #3b82f6 100%)',
   neon = false,
-  transition = { duration: 3, repeat: Infinity, ease: 'linear'},
+  transition = { duration: 3, repeat: Infinity, ease: 'easeInOut'},
   ...props
 }: GradientTextProps) {
   const baseStyle: React.CSSProperties = {
