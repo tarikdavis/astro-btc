@@ -2,7 +2,6 @@ import {
   FaXTwitter,
   FaTelegram,
 } from "react-icons/fa6";
-import { SiBluesky } from "react-icons/si";
 
 import { Card } from "@/components/ui/card";
 
