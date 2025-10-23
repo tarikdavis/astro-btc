@@ -28,10 +28,10 @@ const Community6 = () => {
     <section className="bg-background text-foreground relative overflow-hidden rounded-3xl py-6">
       <div className="container relative z-10 flex flex-col items-center justify-center">
         <h2 className="mb-4 text-center text-4xl font-bold tracking-tight md:text-5xl xl:text-6xl">
-          Join The Congregation
+          Join Us
         </h2>
         <p className="text-muted-foreground mb-8 max-w-2xl text-center text-lg font-normal md:text-xl">
-          Connect, collaborate, and what else shall we do?
+          Connect, collaborate, and what else shall we do??
         </p>
         <div className="mb-10 grid w-full grid-cols-1 gap-6 md:grid-cols-1 xl:grid-cols-2">
           {communityCards.map((card) => (
