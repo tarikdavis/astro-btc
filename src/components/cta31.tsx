@@ -16,7 +16,7 @@ const Cta31 = () => {
         </div>
         <div className="relative z-10 mt-4 flex justify-center lg:mt-2">
               <Button className="mt-6 h-12 rounded-2xl px-6 text-lg">
-                Trade $BTC on pumpfun
+                <a href="https://pump.fun/">Trade $BTC on pumpfun</a>
                 <SiSolana className="size-6" />
               </Button>
         </div>

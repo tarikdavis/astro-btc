@@ -15,13 +15,13 @@ const Community6 = () => {
       icon: <FaTelegram className="text-foreground/80 h-8 w-8" />,
       title: "Telegram",
       description: "Chat, share ideas, and get support from the community",
-      link: "#",
+      link: "https://t.me/salladcowboys",
     },
     {
       icon: <FaXTwitter className="text-foreground/80 h-8 w-8" />,
       title: "Twitter",
       description: "Follow us for updates, insights, and news",
-      link: "#",
+      link: "https://x.com/Sallad_Cowboys",
     },
   ];
 
