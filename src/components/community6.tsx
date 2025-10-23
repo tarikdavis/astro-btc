@@ -1,8 +1,4 @@
 import {
-  FaDiscord,
-  FaGithub,
-  FaLinkedin,
-  FaSlack,
   FaXTwitter,
   FaTelegram,
 } from "react-icons/fa6";

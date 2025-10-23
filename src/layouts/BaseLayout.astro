@@ -1,6 +1,8 @@
 ---
 import '../styles/global.css';
-
+import { Hero34 } from '@/components/hero34'
+import { Cta31 } from '@/components/cta31'
+import { Community6 } from '@/components/community6'
 const { content } = Astro.props;
 ---
 <html lang="en">
@@ -16,19 +18,19 @@ const { content } = Astro.props;
 		<meta name="theme-color" media="(prefers-color-scheme: dark)" content="black" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
 	</head>
-	<body id="body" style="display: none;">
-		<header>
-			 
-		</header>	
-		<main>
-		<slot />
+  <body class="bg-background min-h-screen font-sans antialiased">
+    <div class="relative flex min-h-screen flex-col">
+		<header class="mt-8">
+		</header>
+		<main class="container mx-auto px-4">
+		<Hero34 client:load/>
+		<Cta31 client:load/>
+		<Community6 client:load/>
 		</main>
-		<footer>
-			
+		<footer>	
 		</footer>
-	<script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+	</div>
 	</body>
 	<script type="text/javascript">
     window.onload = function () {
